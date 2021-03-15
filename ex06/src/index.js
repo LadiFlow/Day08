@@ -1,3 +1,4 @@
+// Only change code below this line
 function xSix(num) {
     return 6 * num;
 }
