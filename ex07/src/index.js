@@ -1,13 +1,13 @@
 // Only change code below this line
 var sum = 0;
-function addThree(num) {
-    return (sum + num);
-}
-var sum = addThree(3);
 
-function addFive(num) {
-    return (addThree + num);
+function addThree() {
+    sum = sum + 3;
+}   
+addThree(3);
 
+function addFive() {
+    sum = sum + 5;
 }
 addFive(5);
 
